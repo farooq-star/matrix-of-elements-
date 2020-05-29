@@ -12,18 +12,18 @@ int main()
  	printf("\n Please Enter the Matrix Elements \n");
  	for(rows = 0; rows < i; rows++)
   	{
-   		for(columns = 0;columns < j;columns++)
+          for(columns = 0;columns < j;columns++)
     	{
-      		scanf("%d", &a[rows][columns]);
+      	 scanf("%d", &a[rows][columns]);
     	}
   	}
    	  
  	for(rows = 0; rows < i; rows++)
   	{
-   		Sum = Sum + a[rows][rows];
+   	 Sum = Sum + a[rows][rows];
   	}
  
- 	printf("\n The Sum of Diagonal Elements of a Matrix =  %d", Sum );
+ 	 printf("\n The Sum of Diagonal Elements of a Matrix =  %d", Sum );
 
- 	return 0;
+     return 0;
 }
